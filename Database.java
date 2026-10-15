@@ -6,7 +6,7 @@ class Database{
         String cod ,nam,ct,ag;
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/invariants","root","harsh@123");
+            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/Your_Databasename","root","Your_Password");
             System.out.println("Connection Stablished Succesfully");
             Statement s = con.createStatement();
             ResultSet rs;
